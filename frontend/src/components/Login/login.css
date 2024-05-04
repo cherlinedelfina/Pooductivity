@@ -1,0 +1,77 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.login-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff; /* Set blue background color */
+  color: #fff; /* Set text color to white */
+  padding: 20px;
+}
+
+.login-form form {
+  width: 100%;
+  max-width: 400px; /* Limit form width for better readability */
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0056b3; /* Darker blue for button */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #004080; /* Darker shade on hover */
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-input100 {
+  flex: 1;
+  margin-right: 10px; /* Add some space between the input fields */
+}
+
+.input-row .wrap-input100:last-child {
+  margin-right: 0; /* Remove the right margin from the last input field in a row */
+}
+
+.input-label {
+  display: block;
+  font-size: small;
+}
+
+.dob-input-label {
+  display: block;
+  font-size: small;
+  margin-bottom: -5%;
+  color: rgb(173, 173, 173);
+}
